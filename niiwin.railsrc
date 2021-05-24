@@ -1,4 +1,6 @@
 -d postgresql
+-m=https://raw.githubusercontent.com/fapapa/rails_templates/master/niiwin.rb
 --skip-turbolinks
 --skip-spring
---template=https://raw.githubusercontent.com/fapapa/rails_templates/master/niiwin.rb
+--skip-webpack-install
+--skip-bundle
