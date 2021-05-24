@@ -5,5 +5,5 @@ This is a central repository for all of Animikii's Rails templates (as well as a
 Generally, the way to use one of the templates is to point to the railsrc file as the value for the `--rc` option when calling `rails new`. This is different than the usual way of applying a template, which is to point to the template directly using the `-m` or `--template` option. The reason for doing it this way is that it allows us to specify options that are required for the template — for example, specifying that Postgres should be used and that Spring should be skipped for Niiwin. The railsrc file includes the template option pointing to the template file, so there's no need to point to it directly. As an example, to create a new rails app, using the niiwin template, you would run:
 
 ```sh
-$ rails new --rc=https://raw.github.com/animikii/rails_templates/niiwin.railsrc
+$ rails new <app_name> --rc=https://raw.githubusercontent.com/fapapa/rails_templates/master/niiwin.railsrc
 ```

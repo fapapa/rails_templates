@@ -1,4 +1,4 @@
 -d postgresql
 --skip-turbolinks
 --skip-spring
---template=https://raw.github.com/fapapa/rails_templates/niiwin.rb
+--template=https://raw.githubusercontent.com/fapapa/rails_templates/master/niiwin.rb
